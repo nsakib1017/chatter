@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Classroom.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IkNsYXNzcm9vbS5qbmxwIj4NCiAgICA8aW5mb3JtYXRpb24+DQogICAgICAgIDx0aXRsZT5DbGFzc3Jvb208L3RpdGxlPg0KICAgICAgICA8dmVuZG9yPk5hem11cyBTYWtpYjwvdmVuZG9yPg0KICAgICAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICAgIDwvaW5mb3JtYXRpb24+DQogICAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQogICAgPHJlc291cmNlcz4NCiAgICAgICAgPGoyc2UgdmVyc2lvbj0iOS4wLjErIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgICAgIDxqYXIgaHJlZj0iQ2xhc3Nyb29tLmphciIgc2l6ZT0iMjQxNzkiIGRvd25sb2FkPSJlYWdlciIvPg0KICAgICAgICA8amFyIGhyZWY9ImxpYlxteXNxbC1jb25uZWN0b3ItamF2YS01LjEuMjMtYmluLmphciIgc2l6ZT0iODM0MTI2IiBkb3dubG9hZD0iZWFnZXIiLz4NCiAgICA8L3Jlc291cmNlcz4NCiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjbGFzc3Jvb20uQ2xhc3Nyb29tIiBuYW1lPSJDbGFzc3Jvb20iLz4NCjwvam5scD4NCg0K'
+            },
+            {
+                javafx : '9.0.1+'
+            },
+            {}
+        );
+        return false;
+    }
+</script><script>
+    function javafxEmbedclassroom() {
+        dtjava.embed(
+            {
+                id : 'classroom',
+                url : 'Classroom.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IkNsYXNzcm9vbS5qbmxwIj4NCiAgICA8aW5mb3JtYXRpb24+DQogICAgICAgIDx0aXRsZT5DbGFzc3Jvb208L3RpdGxlPg0KICAgICAgICA8dmVuZG9yPk5hem11cyBTYWtpYjwvdmVuZG9yPg0KICAgICAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICAgIDwvaW5mb3JtYXRpb24+DQogICAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQogICAgPHJlc291cmNlcz4NCiAgICAgICAgPGoyc2UgdmVyc2lvbj0iOS4wLjErIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgICAgIDxqYXIgaHJlZj0iQ2xhc3Nyb29tLmphciIgc2l6ZT0iMjQxNzkiIGRvd25sb2FkPSJlYWdlciIvPg0KICAgICAgICA8amFyIGhyZWY9ImxpYlxteXNxbC1jb25uZWN0b3ItamF2YS01LjEuMjMtYmluLmphciIgc2l6ZT0iODM0MTI2IiBkb3dubG9hZD0iZWFnZXIiLz4NCiAgICA8L3Jlc291cmNlcz4NCiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjbGFzc3Jvb20uQ2xhc3Nyb29tIiBuYW1lPSJDbGFzc3Jvb20iLz4NCjwvam5scD4NCg0K'
+            },
+            {
+                javafx : '9.0.1+'
+            },
+            {}
+        );
+    }
+    
+            <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedclassroom);
+</script>
+    </head>
+    <body>
+        <h2>
+            Test page for <b>Classroom</b>
+        </h2>
+        <b>Webstart:</b><a href="Classroom.jnlp" onclick="return launchApplication('Classroom.jnlp');">click to launch this app as webstart</a>
+        <br>
+        <hr>
+        <br>
+        
+        <!-- Applet will be inserted here -->
+        <div id="javafx-app-placeholder"></div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Classroom.jnlp">
+    <information>
+        <title>Classroom</title>
+        <vendor>Nazmus Sakib</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Classroom.jar" size="24179" download="eager"/>
+        <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="classroom.Classroom" name="Classroom"/>
+</jnlp>
+
